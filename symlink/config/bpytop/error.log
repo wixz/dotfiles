@@ -1,0 +1,36 @@
+23/09/20 (21:15:23) | ERROR: Data collection thread failed with exception: [Errno 6] Device not configured
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/site-packages/bpytop.py", line 2558, in _runner
+    collector._collect()
+  File "/usr/local/lib/python3.8/site-packages/bpytop.py", line 3038, in _collect
+    up_stat = psutil.net_if_stats()
+  File "/usr/local/lib/python3.8/site-packages/psutil/__init__.py", line 2220, in net_if_stats
+    return _psplatform.net_if_stats()
+  File "/usr/local/lib/python3.8/site-packages/psutil/_psosx.py", line 264, in net_if_stats
+    mtu = cext_posix.net_if_mtu(name)
+OSError: [Errno 6] Device not configured
+23/09/20 (21:15:25) | WARNING: Exiting with errorcode (1). Runtime 11:11:14 
+
+15/10/20 (21:57:43) | ERROR: Exception when sending signal 2 to pid 1
+15/10/20 (21:57:43) | ERROR: [Errno 1] Operation not permitted
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/site-packages/bpytop.py", line 4623, in process_keys
+    os.kill(pid, sig)
+PermissionError: [Errno 1] Operation not permitted
+06/09/21 (12:56:48) | ERROR: Command 'osx-cpu-temp' died with <Signals.SIGKILL: 9>.
+Traceback (most recent call last):
+  File "/usr/local/bin/bpytop", line 3208, in _collect_temps
+    temp = max(0, round(float(subprocess.check_output("osx-cpu-temp", universal_newlines=True).strip()[:-2])))
+  File "/usr/local/Cellar/python@3.9/3.9.6/Frameworks/Python.framework/Versions/3.9/lib/python3.9/subprocess.py", line 424, in check_output
+  File "/usr/local/Cellar/python@3.9/3.9.6/Frameworks/Python.framework/Versions/3.9/lib/python3.9/subprocess.py", line 528, in run
+subprocess.CalledProcessError: Command 'osx-cpu-temp' died with <Signals.SIGKILL: 9>.
+11/10/22 (14:13:52) | ERROR: Exception while getting cpu frequency!
+11/10/22 (14:13:52) | ERROR: [Errno 2] No such file or directory (originated from sysctlbyname('hw.cpufrequency'))
+Traceback (most recent call last):
+  File "/opt/homebrew/bin/bpytop", line 3080, in _collect
+    if CONFIG.show_cpu_freq and hasattr(psutil.cpu_freq(), "current"):
+  File "/opt/homebrew/Cellar/bpytop/1.0.68/libexec/lib/python3.10/site-packages/psutil/__init__.py", line 1859, in cpu_freq
+    ret = _psplatform.cpu_freq()
+  File "/opt/homebrew/Cellar/bpytop/1.0.68/libexec/lib/python3.10/site-packages/psutil/_psosx.py", line 180, in cpu_freq
+    curr, min_, max_ = cext.cpu_freq()
+FileNotFoundError: [Errno 2] No such file or directory (originated from sysctlbyname('hw.cpufrequency'))

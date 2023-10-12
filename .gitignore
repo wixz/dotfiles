@@ -1,0 +1,55 @@
+private
+
+# Git credential file
+.gitconfig.local
+
+# Ignore vim package files
+symlink/config/nvim/plugged/
+
+# Ignore irssi specific config
+symlink/irssi/config
+symlink/irssi/config.autosave
+
+# Ignore vscode extensions
+symlink/vscode/extensions
+
+# Ignore certificates and cache
+symlink/mutt/cache/
+symlink/mutt/certificates/
+symlink/mutt/tmp/
+
+# Folder view configuration files
+.DS_Store
+Desktop.ini
+
+# Thumbnail cache files
+._*
+*~
+Thumbs.db
+.atom*
+
+# Files that might appear on external disks
+.Spotlight-V100
+.Trashes
+
+# Compiled Python files
+*.pyc
+
+# Locked db files
+*.db
+*.db.lock
+
+# Ignore sensitive files in the mutt config
+*.account
+.msmtprc
+
+# Ignore OATH
+*.rainbow_oauth
+
+# npm & bower
+bower_components
+node_modules
+npm-debug.log
+
+# IDEs stuff
+.idea

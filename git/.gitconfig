@@ -1,0 +1,5 @@
+[user]
+	email = cw@ixz.se
+	name = cw
+[core]
+	excludesFile = /Users/chrwes/.gitignore

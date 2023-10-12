@@ -1,0 +1,60 @@
+# ~/.config//ticker/ticker.yaml
+show-summary: true
+show-tags: true
+show-fundamentals: true
+show-separator: true
+show-holdings: false
+interval: 5
+currency: SEK
+currency-summary-only: false
+watchlist:
+  - MSFT
+  - JPM
+  - INTC
+  - GOOG
+  - NFLX
+  - AMZN
+  - ADBE
+  - META
+  - PYPL
+  - PLTR
+  - SFL.ST
+  - CAST.ST
+  - SALT-B.ST
+  - AZA.ST
+  - CIBUS.ST
+  - INVE-A.ST
+  - EVO.ST
+  - NWG.ST
+  - CRED-A.ST
+  - FERRO.ST
+  - KAMBI.ST
+  - KEBNI-B.ST
+  - 1HV.F
+  - HDLV.DE
+  - IUSZ.DE
+  - VGWD.DE
+  - FLXD.DE
+  - GFS
+  # - BTC-USD
+  # - SOL.X # Solana price via CoinGecko
+# lots:
+#   - symbol: "ABNB"
+#     quantity: 35.0
+#     unit_cost: 146.00
+#   - symbol: "ARKW"
+#     quantity: 20.0
+#     unit_cost: 152.25
+#   - symbol: "ARKW"
+#     quantity: 20.0
+#     unit_cost: 145.35
+#     fixed_cost: 7.00 # e.g. brokerage commission fee
+# groups:
+#   - name: crypto
+#     watchlist:
+#       - SHIB-USD
+#       - VGX-USD
+#     holdings:
+#       - symbol: SOL1-USD
+#         quantity: 17
+#         unit_cost: 159.10

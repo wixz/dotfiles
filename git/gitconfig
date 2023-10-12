@@ -1,0 +1,7 @@
+[core]
+	editor = vscode --wait
+[user]
+	name = Christoffer Wesén
+	email = cw@ixz.se
+[credential]
+	helper = osxkeychain

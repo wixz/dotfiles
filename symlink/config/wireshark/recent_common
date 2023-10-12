@@ -1,0 +1,167 @@
+# Common recent settings file for Wireshark 4.0.1.
+#
+# This file is regenerated each time Wireshark is quit
+# and when changing configuration profile.
+# So be careful, if you want to make manual changes here.
+
+######## Recent capture files (latest last), cannot be altered through command line ########
+
+recent.capture_file: /Users/chrwes/Downloads/pcaps (2)/request_1551881205.pcap
+recent.capture_file: /Users/chrwes/Downloads/pcap-challenge-2019.pcap
+recent.capture_file: /Users/chrwes/Downloads/typ_ddos_221127_1537.pcap
+
+######## Recent capture filters (latest last), cannot be altered through command line ########
+
+recent.capture_filter: port 9997
+recent.capture_filter.en0: port 9997
+
+######## Recent display filters (latest last), cannot be altered through command line ########
+
+recent.display_filter: udp.dstport == 53
+recent.display_filter: tcp.port == 9997
+recent.display_filter: text
+recent.display_filter: tcp.stream eq 0 and !(tcp.stream eq 0)
+recent.display_filter: ssl
+recent.display_filter: ip.addr == 172.16.244.214
+recent.display_filter: ((ssl || http) || (ip.addr == 172.16.244.4)) && (ip.addr == 192.168.218.101)
+recent.display_filter: tcp.stream eq 0
+recent.display_filter: tcp.stream eq 14
+recent.display_filter: tcp.stream eq 12
+
+# Main window geometry.
+# Decimal numbers.
+gui.geometry_main_x: 122
+gui.geometry_main_y: 185
+gui.geometry_main_width: 1893
+gui.geometry_main_height: 1227
+
+# Main window maximized.
+# TRUE or FALSE (case-insensitive).
+gui.geometry_main_maximized: FALSE
+
+# Leftalign Action Buttons.
+# TRUE or FALSE (case-insensitive).
+gui.geometry_leftalign_actions: FALSE
+
+# Statusbar left pane size.
+# Decimal number.
+gui.geometry_status_pane: 250
+
+# Statusbar middle pane size.
+# Decimal number.
+gui.geometry_status_pane_right: 250
+
+# Last used Configuration Profile.
+gui.last_used_profile: Default
+
+# WLAN statistics upper pane size.
+# Decimal number.
+gui.geometry_status_wlan_stats_pane: 200
+
+# Warn if running with elevated permissions (e.g. as root).
+# TRUE or FALSE (case-insensitive).
+privs.warn_if_elevated: TRUE
+
+# Warn if Wireshark is unable to capture.
+# TRUE or FALSE (case-insensitive).
+sys.warn_if_no_capture: TRUE
+
+# Find packet search in.
+# One of: PACKET_LIST, PACKET_DETAILS, PACKET_BYTES
+gui.search_in: PACKET_LIST
+
+# Find packet character set.
+# One of: NARROW_AND_WIDE, NARROW, WIDE
+gui.search_char_set: NARROW_AND_WIDE
+
+# Find packet case sensitive search.
+# TRUE or FALSE (case-insensitive).
+gui.search_case_sensitive: FALSE
+
+# Find packet search type.
+# One of: DISPLAY_FILTER, HEX_VALUE, STRING, REGEX
+gui.search_type: DISPLAY_FILTER
+
+# Geometry and maximized state of ShowPacketBytesDialog window.
+# Decimal integers.
+gui.geom.ShowPacketBytesDialog.x: 362
+gui.geom.ShowPacketBytesDialog.y: 147
+gui.geom.ShowPacketBytesDialog.width: 1214
+gui.geom.ShowPacketBytesDialog.height: 849
+# TRUE or FALSE (case-insensitive).
+gui.geom.ShowPacketBytesDialog.maximized: FALSE
+
+# Geometry and maximized state of DisplayFilterExpressionDialog window.
+# Decimal integers.
+gui.geom.DisplayFilterExpressionDialog.x: 163
+gui.geom.DisplayFilterExpressionDialog.y: 61
+gui.geom.DisplayFilterExpressionDialog.width: 1030
+gui.geom.DisplayFilterExpressionDialog.height: 975
+# TRUE or FALSE (case-insensitive).
+gui.geom.DisplayFilterExpressionDialog.maximized: FALSE
+
+# Geometry and maximized state of PreferencesDialog window.
+# Decimal integers.
+gui.geom.PreferencesDialog.x: 620
+gui.geom.PreferencesDialog.y: 340
+gui.geom.PreferencesDialog.width: 680
+gui.geom.PreferencesDialog.height: 475
+# TRUE or FALSE (case-insensitive).
+gui.geom.PreferencesDialog.maximized: FALSE
+
+# Geometry and maximized state of FollowStreamDialog window.
+# Decimal integers.
+gui.geom.FollowStreamDialog.x: 366
+gui.geom.FollowStreamDialog.y: 23
+gui.geom.FollowStreamDialog.width: 1214
+gui.geom.FollowStreamDialog.height: 1132
+# TRUE or FALSE (case-insensitive).
+gui.geom.FollowStreamDialog.maximized: FALSE
+
+# Geometry and maximized state of DecodeAsDialog window.
+# Decimal integers.
+gui.geom.DecodeAsDialog.x: 575
+gui.geom.DecodeAsDialog.y: 330
+gui.geom.DecodeAsDialog.width: 750
+gui.geom.DecodeAsDialog.height: 460
+# TRUE or FALSE (case-insensitive).
+gui.geom.DecodeAsDialog.maximized: FALSE
+
+# Geometry and maximized state of CaptureFilePropertiesDialog window.
+# Decimal integers.
+gui.geom.CaptureFilePropertiesDialog.x: 0
+gui.geom.CaptureFilePropertiesDialog.y: 0
+gui.geom.CaptureFilePropertiesDialog.width: 1920
+gui.geom.CaptureFilePropertiesDialog.height: 1200
+# TRUE or FALSE (case-insensitive).
+gui.geom.CaptureFilePropertiesDialog.maximized: TRUE
+
+# Geometry and maximized state of Funnel Evaluate Lua window.
+# Decimal integers.
+gui.geom.Funnel Evaluate Lua.x: 640
+gui.geom.Funnel Evaluate Lua.y: 335
+gui.geom.Funnel Evaluate Lua.width: 620
+gui.geom.Funnel Evaluate Lua.height: 450
+# TRUE or FALSE (case-insensitive).
+gui.geom.Funnel Evaluate Lua.maximized: FALSE
+
+# Geometry and maximized state of PacketDialog window.
+# Decimal integers.
+gui.geom.PacketDialog.x: 245
+gui.geom.PacketDialog.y: 120
+gui.geom.PacketDialog.width: 1457
+gui.geom.PacketDialog.height: 905
+# TRUE or FALSE (case-insensitive).
+gui.geom.PacketDialog.maximized: FALSE
+
+# Custom colors.
+# List of custom colors selected in Qt color picker.
+gui.custom_colors: 
+	"ffffffff", "ffffffff",
+	"ffffffff", "ffffffff",
+	"ffffffff", "ffffffff",
+	"ffffffff", "ffffffff",
+	"ffffffff", "ffffffff",
+	"ffffffff", "ffffffff",
+	"ffffffff", "ffffffff",
+	"ffffffff", "ffffffff"

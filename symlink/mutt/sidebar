@@ -1,0 +1,21 @@
+# Sidebar mappings
+set sidebar_visible = yes
+set sidebar_width = 25
+set sidebar_short_path = yes
+set sidebar_format = '%B%?F? [%F]?%* %?N?%N/?%S'
+set sidebar_component_depth = 0
+set sidebar_delim_chars = '/'
+set sidebar_folder_indent = yes
+set sidebar_indent_string = '  '
+set sidebar_new_mail_only = no
+set sidebar_divider_char = '|'
+set mail_check_stats
+set sidebar_sort_method = 'unsorted'
+
+# Simple navigation of the Sidebar.
+bind index,pager P sidebar-prev
+bind index,pager N sidebar-next
+bind index,pager O sidebar-open
+
+# Toggle the visibility of the Sidebar.
+bind index,pager B sidebar-toggle-visible
