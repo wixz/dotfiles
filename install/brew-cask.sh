@@ -7,10 +7,19 @@ brew tap homebrew/cask-versions
 
 # Install packages
 apps=(
+<<<<<<< HEAD
+=======
+    alt-tab
+>>>>>>> 6d0c2c2 (dotfiles remake first publish)
     the-unarchiver
     appcleaner
     bettertouchtool
     bitwarden
+<<<<<<< HEAD
+=======
+    drawio
+    dropzone
+>>>>>>> 6d0c2c2 (dotfiles remake first publish)
     istat-menus
 #   brooklyn # Awesome Screensaver
     vlc
