@@ -57,10 +57,7 @@ apps=(
     irssi # The best IRC client out there, terminal based
     tmux # terminal multiplexer
     nmap
-<<<<<<< HEAD
-=======
     ncdu
->>>>>>> 6d0c2c2 (dotfiles remake first publish)
     perl
     speedtest-cli # check internet speed
     ncdu # index and see filesize of all files and folders locally
