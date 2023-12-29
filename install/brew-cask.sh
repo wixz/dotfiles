@@ -28,27 +28,27 @@ apps=(
 #   keybase
     telegram
     signal
-    tor-browser
+#   tor-browser
     obsidian
 #   torguard
 #   fantastical
 #   goofy
     google-chrome
-    gpg-suite
-    firefox
+#   gpg-suite
+#   firefox
 #   vimr # Gui editor with CLI based on neovim
 #   notable # Note taking app using markdown
 #   malwarebytes-anti-malware
 #   glimmerblocker
     openlens
-    veracrypt
+#   veracrypt
     wireshark
 #   macdown
 #   sublime
 #   atom
-    spotify
+#   spotify
     powershell
-    zoom
+#   zoom
 #   skype
 #   slack
 #   mattermost

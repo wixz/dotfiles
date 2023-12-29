@@ -1,0 +1,34 @@
+private
+
+# Git credential file
+.gitconfig.local
+
+# Ignore certificates and cache
+
+
+# Folder view configuration files
+.DS_Store
+Desktop.ini
+
+# Thumbnail cache files
+._*
+*~
+Thumbs.db
+.atom*
+
+# Files that might appear on external disks
+.Spotlight-V100
+.Trashes
+
+# Compiled Python files
+*.pyc
+
+# Locked db files
+*.db
+*.db.lock
+
+# Ignore sensitive files in the mainsible config
+hosts.ini
+
+# IDEs stuff
+.idea
