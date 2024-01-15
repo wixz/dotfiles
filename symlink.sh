@@ -18,6 +18,7 @@ ln -s "${HOME}/Documents/3_Resources/git/dotfiles/symlink/spacevim.d/" "${HOME}/
 ln -s "${HOME}/Documents/3_Resources/git/dotfiles/symlink/zsh/.zshrc" "${HOME}/.zshrc"
 ln -s "${HOME}/Documents/3_Resources/git/dotfiles/symlink/parsec" "${HOME}/.parsec"
 ln -s "${HOME}/Documents/3_Resources/git/dotfiles/" "${HOME}/dotfiles"
+ln -s "${HOME}/Documents/3_Resources/git/dotfiles/ansible" "${HOME}/ansible"
 ln -s "${HOME}/Documents/3_Resources/git/documentation" "${HOME}/documentation"
 echo "done."
 
