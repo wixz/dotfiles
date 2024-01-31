@@ -118,6 +118,26 @@ export SSH_KEY_PATH="~/.ssh/"
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+# Alias
+# ---
+#
+alias k="kubectl"
+alias h="helm"
+alias tf="terraform"
+alias a="ansible"
+alias ap="ansible-playbook"
+alias ls="ls -lah"
+
+alias code="open -a 'Visual Studio Code'"
+
+# alias gprj="cd $HOME/Projects"
+# alias gcs="cd $HOME/Projects/christianlempa/cheat-sheets"
+# alias gbp="cd $HOME/Projects/christianlempa/boilerplates"
+
+# alias ls="exa --icons --group-directories-first"
+# alias ll="exa --icons --group-directories-first -l"
+# alias grep='grep --color'
+
 
 # Add RVM to PATH for scripting. Make sure this is the last PATH variable change.
 export PATH="$PATH:$HOME/.rvm/bin"
