@@ -44,7 +44,7 @@ ZSH_THEME="powerlevel10k/powerlevel10k"
 # DISABLE_AUTO_TITLE="true"
 
 # Uncomment the following line to enable command auto-correction.
-ENABLE_CORRECTION="true"
+# ENABLE_CORRECTION="true"
 
 # Uncomment the following line to display red dots whilst waiting for completion.
 COMPLETION_WAITING_DOTS="true"
@@ -127,6 +127,7 @@ alias tf="terraform"
 alias a="ansible"
 alias ap="ansible-playbook"
 alias ls="ls -lah"
+alias vi="nvim"
 
 alias code="open -a 'Visual Studio Code'"
 
