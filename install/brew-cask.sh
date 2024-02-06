@@ -15,10 +15,10 @@ apps=(
     drawio
     dropzone
     istat-menus
-#   brooklyn # Awesome Screensaver
     vlc
     dash
     iterm2
+    warp
     visual-studio-code
     little-snitch
     micro-snitch
@@ -27,6 +27,7 @@ apps=(
 #   evernote
 #   keybase
     telegram
+    hiddenbar
     signal
 #   tor-browser
     obsidian
@@ -49,7 +50,6 @@ apps=(
 #   spotify
     powershell
 #   zoom
-#   skype
 #   slack
 #   mattermost
 )
@@ -58,18 +58,9 @@ brew install "${apps[@]}"
 
 # apps that needs to be installed which are not present in Homebrew Cask
 #
-# alfred 3
+# alfred 5
 # Office including Remote Desktop
-# Airmail 3+
 # Magnet
 # DayOne
 # Display Menu
 # Iperf3
-# Tweetdeck
-# VMWare Fusion
-# Tweetbot
-
-
-
-# Quick Look Plugins (https://github.com/sindresorhus/quick-look-plugins)
-# brew cask install qlcolorcode qlstephen qlmarkdown quicklook-json qlprettypatch quicklook-csv betterzipql qlimagesize webpquicklook suspicious-package

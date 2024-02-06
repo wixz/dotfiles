@@ -34,8 +34,8 @@ apps=(
     bash
     git
     git-extras
+    cheat # collection of cheatsheets
     grep
-    vim
     openssh
     gnupg
     mtr
@@ -46,18 +46,20 @@ apps=(
     tree
     bpytop # beautiful performance monitor
     wget
+    helm
+    kubernetes-cli
     pass
     pass-otp
     wifi-password
-    htop # enhanced version of top
+    htop # enhanced version of htop
     cheat # allows you to create and view interactive cheatsheets on the command-line
     jrnl # Makes journaling from cli easy. Connects with DayOne.
     neofetch
+    neovim # used in conjunktion with SpaceVim
     watch
     irssi # The best IRC client out there, terminal based
     tmux # terminal multiplexer
     nmap
-    ncdu
     perl
     speedtest-cli # check internet speed
     ncdu # index and see filesize of all files and folders locally
