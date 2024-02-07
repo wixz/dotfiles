@@ -12,6 +12,7 @@ apps=(
     appcleaner
     bettertouchtool
     bitwarden
+    docker
     drawio
     dropzone
     istat-menus

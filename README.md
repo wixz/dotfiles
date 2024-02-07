@@ -2,8 +2,6 @@
 
 This is a collection of dotfiles and scripts I use for customizing OS X to my liking and setting up all the configuration and software tools I use on a day-to-day basis.
 
-My dotfiles relevant to Linux are the same, but the relevant scripts for my specific environment `(Ubuntu / POP!_OS)` will be added in the close future.
-
 *note* FYI. This is a work in progress, say "beta" if you will :)
 
 ### The install script will: ###

@@ -32,6 +32,8 @@ brew install coreutils
 apps=(
     ansible
     bash
+    docker
+    docker-compose
     git
     git-extras
     cheat # collection of cheatsheets

@@ -16,6 +16,7 @@ ln -s "${HOME}/Documents/3_Resources/git/dotfiles/symlink/spacevim" "${HOME}/.vi
 ln -s "${HOME}/Documents/3_Resources/git/dotfiles/symlink/spacevim" "${HOME}/.SpaceVim"
 ln -s "${HOME}/Documents/3_Resources/git/dotfiles/symlink/spacevim.d/" "${HOME}/.SpaceVim.d"
 ln -s "${HOME}/Documents/3_Resources/git/dotfiles/symlink/zsh/.zshrc" "${HOME}/.zshrc"
+ln -s "${HOME}/Documents/3_Resources/git/dotfiles/symlink/bash/.bashrc" "${HOME}/.bashrc"
 ln -s "${HOME}/Documents/3_Resources/git/dotfiles/symlink/parsec" "${HOME}/.parsec"
 ln -s "${HOME}/Documents/3_Resources/git/dotfiles/symlink/warp" "${HOME}/.warp"
 ln -s "${HOME}/Documents/3_Resources/git/dotfiles/" "${HOME}/dotfiles"
