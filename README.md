@@ -26,8 +26,8 @@ This is a collection of dotfiles and scripts I use for customizing OS X to my li
 ```sh
 $ git clone git@github.com:wixz/dotfiles.git ~/dotfiles
 $ cd ~/dotfiles
-$ chmod +x setup.sh
-$ ./setup.sh
+$ chmod +x setup-new-machine.sh
+$ ./setup-new-machine.sh
 ```
 
 ## OS X Defaults ##

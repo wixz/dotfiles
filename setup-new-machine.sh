@@ -100,4 +100,11 @@ curl -L https://get.rvm.io | bash -s stable --autolibs=enabled --ruby
 # Symlinks to link dotfiles into ~/                                           #
 ###############################################################################
 
-./setup.sh
+sh ./symlink.sh
+
+###############################################################################
+# Setup of zsh and symlink                                                    #
+###############################################################################
+
+# With Mac OS, I'm using warp with bash and symlinks are moved to symlink.sh.
+# ./setup.sh

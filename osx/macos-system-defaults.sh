@@ -24,8 +24,8 @@
 # From <https://github.com/rtrouton/rtrouton_scripts/>
 IS_LAPTOP=$(/usr/sbin/system_profiler SPHardwareDataType | grep "Model Identifier" | grep "Book")
 if [[ "$IS_LAPTOP" != "" ]]; then
-    pmset -b sleep 0 disksleep 0 displaysleep 10 halfdim 1
-    pmset -c sleep 0 disksleep 0 displaysleep 30 halfdim 1
+    pmset -b sleep 0 disksleep 0 displaysleep 20 halfdim 1
+    pmset -c sleep 0 disksleep 0 displaysleep 40 halfdim 1
 else
     pmset sleep 0 disksleep 0 displaysleep 60 halfdim 1
 fi
