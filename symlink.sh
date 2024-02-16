@@ -3,7 +3,6 @@
 #
 echo "Creating symlinks..."
 ln -s "${HOME}/Documents/3_Resources/git/dotfiles/symlink/config/" "${HOME}/.config"
-ln -s "${HOME}/Documents/3_Resources/git/dotfiles/symlink/mutt/" "${HOME}/.config/mutt"
 ln -s "${HOME}/Documents/3_Resources/git/dotfiles/symlink/irssi/" "${HOME}/.irssi"
 ln -s "${HOME}/Documents/3_Resources/git/dotfiles/symlink/newsboat/" "${HOME}/.newsboat"
 ln -s "${HOME}/Documents/3_Resources/git/dotfiles/symlink/rainbow/.rainbow_config.json" "${HOME}/.rainbow_config.json"

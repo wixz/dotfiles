@@ -2,17 +2,17 @@
 
 This is a collection of dotfiles and scripts I use for customizing OS X to my liking and setting up all the configuration and software tools I use on a day-to-day basis.
 
-*note* FYI. This is a work in progress, say "beta" if you will :)
+*note* This is a work in progress, say "beta" if you will :)
 
 ### The install script will: ###
 
 * back up any existing dotfiles in your home directory to `~/dotfiles_old/`
-* Install X-Code Comman Line Tools (needed for brew)
-* clone the `oh-my-zsh` repository from my GitHub (for use with `zsh`) (Only applicable if iterm2 is used, not warp. controlled via setup.sh)
-* check to see if `zsh` is installed, if it isn't, try to install it (Only applicable if iterm2 is used, not warp. controlled via setup.sh)
-* if zsh is installed, run a `chsh -s` to set it as the default shell (Only applicable if iterm2 is used, not warp. controlled via setup.sh)
-* Install brew, brew cli apps and brew cask apps (Installed via /install/brew.sh and brew-cask.sh)
-* Create symlinks to the dotfiles in your home directory (Created via symlink.sh)
+* Install X-Code Comman Line Tools *needed for brew*
+* clone the `oh-my-zsh` repository from my GitHub (for use with `zsh`) *Only applicable if iterm2 is used, not warp. controlled via setup.sh*
+* check to see if `zsh` is installed, if it isn't, try to install it *Only applicable if iterm2 is used, not warp. controlled via setup.sh*
+* if zsh is installed, run a `chsh -s` to set it as the default shell *Only applicable if iterm2 is used, not warp. controlled via setup.sh*
+* Install brew, brew cli apps and brew cask apps *Installed via /install/brew.sh and brew-cask.sh*
+* Create symlinks to the dotfiles in your home directory *Created via symlink.sh*
 
 ### Features ###
 
@@ -20,8 +20,8 @@ This is a collection of dotfiles and scripts I use for customizing OS X to my li
 * install/ brew/brew-cask/ctf-tools install scripts
 * iterm/ The complete iterm2 config, font, theme and color.
 * osx/ The setup scripts regarding defaults for OS X
-* symlink/ Symlinks for config, mutt, irssi, newsboat, rainbow, tmux, spacevim, zsh/bash, warp nad vscode.
-* symlink/config/ The config for bpytop, htop, iterm2, micro, neofetch, ranger, ticker and wireshark.
+* symlink/ Symlinks for config, irssi, newsboat, rainbow, tmux, spacevim, zsh/bash, warp nad vscode.
+* symlink/config/ The config for bpytop, iterm2, micro, neofetch, ranger, ticker and wireshark.
 
 ### Installation ###
 
