@@ -7,19 +7,22 @@ This is a collection of dotfiles and scripts I use for customizing OS X to my li
 ### The install script will: ###
 
 * back up any existing dotfiles in your home directory to `~/dotfiles_old/`
-* create symlinks to the dotfiles in `~/dotfiles/` in your home directory
-* clone the `oh-my-zsh` repository from my GitHub (for use with `zsh`)
-* check to see if `zsh` is installed, if it isn't, try to install it
-* if zsh is installed, run a `chsh -s` to set it as the default shell
+* Install X-Code Comman Line Tools (needed for brew)
+* clone the `oh-my-zsh` repository from my GitHub (for use with `zsh`) # Only applicable if iterm2 is used, not warp. controlled via setup.sh
+* check to see if `zsh` is installed, if it isn't, try to install it # Only applicable if iterm2 is used, not warp. controlled via setup.sh
+* if zsh is installed, run a `chsh -s` to set it as the default shell # Only applicable if iterm2 is used, not warp. controlled via setup.sh
+* Install brew, brew cli apps and brew cask apps # Installed via /install/brew.sh and brew-cask.sh
+* Set Mac OS defaults # Is set via /osx/macos-system-defaults.sh
+* Create symlinks to the dotfiles in your home directory # Created via symlink.sh
 
 ### Features ###
 
 * git/ attributes, aliases and ignore
 * install/ brew/brew-cask install scripts
 * iterm/ The complete iterm2 config, font, theme and color.
-* osx/ The setup scripts regarding symlinks and defaults for OS X
-* symlink/ Symlinks for atom, irssi, mutt, newsboat, rainbow, rc, recon-ng, tmux, vim and zsh
-* symlink/config/ The config for htop, matterhorn, mutt, ranger and wireshark
+* osx/ The setup scripts regarding defaults for OS X
+* symlink/ Symlinks for config, mutt, irssi, newsboat, rainbow, tmux, spacevim, zsh/bash, warp nad vscode.
+* symlink/config/ The config for bpytop, htop, iterm2, micro, neofetch, ranger, ticker and wireshark.
 
 ### Installation ###
 
@@ -38,10 +41,6 @@ My favorite part of this repo is the [set-defaults](osx/macos-system-defaults.sh
 
 I actively watch the following repositories and add the changes i like to this repository:
 
-- [GitHub ❤ ~/](http://dotfiles.github.com/)
-- [Nick Plekhanov](https://github.com/nicksp/dotfiles)
-- [Mathias’s dotfiles](https://github.com/mathiasbynens/dotfiles)
-- [Nicolas Gallagher’s dotfiles](https://github.com/necolas/dotfiles)
 - [Cătălin’s dotfiles](https://github.com/alrra/dotfiles)
 - [Paul's dotfiles](https://github.com/paulirish/dotfiles)
 - [Jacob Gillespie’s dotfiles](https://github.com/jacobwg/dotfiles)

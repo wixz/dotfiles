@@ -14,7 +14,7 @@ cd ~/dotfiles_old
 # then compare brew-list to what's in `brew.sh`
 #   comm <(sort brew-list.txt) <(sort brew.sh-cleaned-up)
 
-# let's hold on to these
+# let's hold on to these, on apply the ones that are relevant
 
 cp ~/.extra ~/dotfiles_old/home
 cp ~/.z ~/dotfiles_old/home
@@ -27,12 +27,6 @@ cp -R ~/Documents ~/dotfiles_old
 cp ~/.bash_history ~/dotfiles_old # back it up for fun?
 cp ~/.gitconfig.local ~/dotfiles_old
 cp ~/.z ~/dotfiles_old # z history file.
-
-
-# iTerm settings.
-  # Prefs, General, Use settings from Folder
-
-# Finder settings
 
 
 ###############################################################################
@@ -74,7 +68,7 @@ fi
 
 
 ###############################################################################
-# Homebrew                                                                    #
+# Homebrew cli and cask apps                                                  #
 ###############################################################################
 
 sh install/brew.sh
@@ -91,7 +85,7 @@ sh install/brew-cask.sh
 sh osx/macos-system-defaults.sh
 
 ###############################################################################
-# Install RVM                                                              #
+# Install RVM                                                                 #
 ###############################################################################
 
 curl -L https://get.rvm.io | bash -s stable --autolibs=enabled --ruby
