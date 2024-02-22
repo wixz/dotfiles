@@ -1,0 +1,1 @@
+ansible-playbook update.yml -i hosts.ini --ask-become-pass
