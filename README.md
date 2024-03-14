@@ -7,12 +7,12 @@ This is a collection of dotfiles and scripts I use for customizing OS X to my li
 ### The install script will: ###
 
 * back up any existing dotfiles in your home directory to `~/dotfiles_old/`
-* Install X-Code Comman Line Tools *needed for brew*
-* clone the `oh-my-zsh` repository from my GitHub (for use with `zsh`) *Only applicable if iterm2 is used, not warp. controlled via setup.sh*
-* check to see if `zsh` is installed, if it isn't, try to install it *Only applicable if iterm2 is used, not warp. controlled via setup.sh*
-* if zsh is installed, run a `chsh -s` to set it as the default shell *Only applicable if iterm2 is used, not warp. controlled via setup.sh*
-* Install brew, brew cli apps and brew cask apps *Installed via /install/brew.sh and /install/brew-cask.sh*
-* Create symlinks to the dotfiles in your home directory *Created via symlink.sh and my path is kind of unique so you will have to specify your own*
+* Install X-Code Comman Line Tools - *needed for brew*
+* clone the `oh-my-zsh` repository from my GitHub (for use with `zsh`) - *Only applicable if iterm2 is used, not warp. controlled via setup.sh*
+* check to see if `zsh` is installed, if it isn't, try to install it - *Only applicable if iterm2 is used, not warp. controlled via setup.sh*
+* if zsh is installed, run a `chsh -s` to set it as the default shell - *Only applicable if iterm2 is used, not warp. controlled via setup.sh*
+* Install brew, brew cli apps and brew cask apps - *Installed via /install/brew.sh and /install/brew-cask.sh*
+* Create symlinks to the dotfiles in your home directory - *Created via symlink.sh and my path is kind of unique so you will have to specify your own*
 
 ### Features ###
 
