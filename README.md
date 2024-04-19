@@ -2,7 +2,7 @@
 
 This is a collection of dotfiles and scripts I use for customizing OS X to my liking and setting up all the configuration and software tools I use on a day-to-day basis.
 
-*note* This is a work in progress, say "beta" if you will :)
+*note* This is always a work in progress and will be updated regularly.
 
 ### The install script will: ###
 

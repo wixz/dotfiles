@@ -1,5 +1,7 @@
 #
 # Symlink stuff
+# 
+# Remember to change the symlink source here to your own preferences
 #
 echo "Creating symlinks..."
 ln -s "${HOME}/Documents/3_Resources/git/dotfiles/symlink/config/" "${HOME}/.config"
