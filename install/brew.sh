@@ -69,6 +69,7 @@ apps=(
     ranger # Terminal based file explorer
     newsboat # rss fedd reader for the terminal
     osx-cpu-temp # to check the cpu temp in pyhon applications
+    achannarasappa/tap/ticker # check stocks in the terminal
     # Uncomment the following applications/modules if mutt is going to be used
     #
     # gpgme # mutt: while there are not many people using encryption in emails, I do when applicable

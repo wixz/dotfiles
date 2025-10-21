@@ -144,3 +144,7 @@ alias logs="sudo find /var/log -type f -exec file {} \; | grep 'text' | cut -d' 
 alias sha1='openssl sha1'
 
 alias clickpaste='sleep 3; xdotool type "$(xclip -o -selection clipboard)"'
+# Added by LM Studio CLI (lms)
+export PATH="$PATH:/Users/chrwes/.lmstudio/bin"
+# End of LM Studio CLI section
+

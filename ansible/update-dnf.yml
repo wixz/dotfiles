@@ -1,5 +1,5 @@
 ---
-- hosts: servers, vm
+- hosts: docker, vm
   become: true
   become_user: root
   tasks:

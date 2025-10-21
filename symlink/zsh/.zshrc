@@ -12,7 +12,7 @@ export ZSH=/Users/$USER/.oh-my-zsh
 # Set name of the theme to load. Optionally, if you set this to "random"
 # it'll load a random theme each time that oh-my-zsh is loaded.
 # See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
-ZSH_THEME="apple"
+ZSH_THEME="nanotech"
 
 # Set list of themes to load
 # Setting this variable when ZSH_THEME=random
@@ -71,8 +71,8 @@ plugins=(
   systemadmin
   web-search
   ssh-agent
-  zsh-autosuggestions
-  zsh-syntax-highlighting
+  # zsh-autosuggestions
+  # zsh-syntax-highlighting
   tmux
   helm
   kubectl
@@ -82,6 +82,8 @@ zstyle :omz:plugins:ssh-agent agent-forwarding on
 # zstyle :omz:plugins:ssh-agent identities id_rsa wixz_github bitbucket_ssh_key
 
 source $ZSH/oh-my-zsh.sh
+source /opt/homebrew/share/zsh-autosuggestions/zsh-autosuggestions.zsh
+source /opt/homebrew/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
 # User configuration
 
@@ -139,3 +141,7 @@ alias code="open -a 'Visual Studio Code'"
 # [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
 # test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
+# Added by LM Studio CLI (lms)
+export PATH="$PATH:/Users/chrwes/.lmstudio/bin"
+# End of LM Studio CLI section
+
